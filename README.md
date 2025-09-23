@@ -1,9 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+#나의 첫 배포!
+
 ## Getting Started
 
 First, run the development server:
 
+![스크린샷]<img width="616" height="462" alt="image" src="https://github.com/user-attachments/assets/8df0514a-b2d0-4239-a8c3-9762e6716468" />
+
+##개발환경
 ```bash
 npm run dev
 # or
