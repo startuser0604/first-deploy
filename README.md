@@ -6,7 +6,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-![스크린샷]<img width="616" height="462" alt="image" src="https://github.com/user-attachments/assets/8df0514a-b2d0-4239-a8c3-9762e6716468" />
+![스크린샷]<img width="616" height="462" alt="image" src=<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/1954b046-46d1-4832-baa5-c29e6c645286" />
+ />
 
 ##개발환경
 ```bash
