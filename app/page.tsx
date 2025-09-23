@@ -7,7 +7,7 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="/차은우.jpg"
-        alt="차은우"
+        alt="Next.js logo"
           width={333}
           height={38}
           priority
