@@ -15,7 +15,7 @@ export default function Home() {
           <li className="mb-2 tracking-[-.01em]">
            안녕{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              부트캠프 장미랑입니다.
+              부트캠프 입니다.
             </code>
             .
           </li>
