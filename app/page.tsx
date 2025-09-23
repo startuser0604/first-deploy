@@ -6,22 +6,26 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="/next.svg"
+          src="diginori_logo.png"
           alt="Next.js logo"
           width={180}
+          width={333}
           height={38}
           priority
         />
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
+            안녕{""}
+             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
               app/page.tsx
-            </code>
+             부트캠프 장미랑 입니다 
+             </code>
             .
           </li>
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
+            테스트 할 수 없는 건 만들 수 없다.
           </li>
         </ol>
 
