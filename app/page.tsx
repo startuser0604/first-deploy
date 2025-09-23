@@ -7,7 +7,6 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="/차은우.jpg"
-          alt="차은우 이미"
           width={333}
           height={38}
           priority
@@ -16,7 +15,6 @@ export default function Home() {
           <li className="mb-2 tracking-[-.01em]">
            안녕{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
               부트캠프 장미랑입니다.
             </code>
             .
