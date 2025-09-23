@@ -6,8 +6,8 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="/diginori_logo.png"
-          alt="디지노리 로고"
+          src="/차은우.jpg"
+          alt="차은우 이미"
           width={333}
           height={38}
           priority
@@ -22,7 +22,6 @@ export default function Home() {
             .
           </li>
           <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
             배고프다 
           </li>
         </ol>
