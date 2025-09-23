@@ -14,14 +14,16 @@ export default function Home() {
         />
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
           <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
+           안녕{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
               app/page.tsx
+              부트캠프 장미랑입니다.
             </code>
             .
           </li>
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
+            배고프다 
           </li>
         </ol>
 
