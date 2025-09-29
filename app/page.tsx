@@ -41,8 +41,10 @@ export default async function Home() {
           안녕 {resume.name} 입니다 👋
         </h1>
 
-        <p className="mb-10 text-black">
-          GitHub:{" "}
+    
+        {/* GitHub Section */}
+        <h2 className="text-2xl font-semibold mb-3 text-black">🔗 GitHub</h2>
+        <div className="border rounded-lg p-4 shadow-sm mb-6">
           <a
             href={resume.github}
             className="text-blue-600 underline"
@@ -51,7 +53,8 @@ export default async function Home() {
           >
             {resume.github}
           </a>
-        </p>
+        </div>
+
 
         {/* Portfolio Section */}
         <h2 className="text-2xl font-semibold mb-3 text-black">💼 Portfolio</h2>
@@ -86,8 +89,7 @@ export default async function Home() {
 
 
         {/* Temporary Message */}
-        <p className="text-gray-500 text-center mt-10">정은아 안녕 오늘은 너에게 럭키데이야👋
-             배고프다... 행운이 너에게 오늘 간다이 오늘 수업 파이팅! 강산 ❣️ 정은 행복하세요     </p>
+        <p className="text-gray-500 text-center mt-10"> 김주미 퇴사 D-1 두근두근 주미야 그동안 고생했어 축하해 🥳</p>
 
       </div>
     </main>
