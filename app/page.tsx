@@ -37,14 +37,14 @@ export default async function Home() {
     <main className="font-sans min-h-screen p-10 bg-gray-100">
       <div className="max-w-2xl mx-auto bg-white shadow rounded-xl p-8">
         {/* Header */}
-        <h1 className="text-3xl font-bold mb-6 text-black">
+        <h1 className="text-3xl font-bold mb-15 text-black">
           안녕 {resume.name} 입니다 👋
         </h1>
 
     
         {/* GitHub Section */}
-        <h2 className="text-2xl font-semibold mb-3 text-black">🔗 GitHub</h2>
-        <div className="border rounded-lg p-4 shadow-sm mb-6">
+        <h2 className="text-2xl font-semibold mt-10 mb-3 text-black">🔗 GitHub</h2>
+        <div className="border rounded-lg p-3 shadow-sm mb-10">
           <a
             href={resume.github}
             className="text-blue-600 underline"
@@ -60,7 +60,7 @@ export default async function Home() {
         <h2 className="text-2xl font-semibold mb-3 text-black">💼 Portfolio</h2>
         <div className="border rounded-lg p-4 shadow-sm mb-10">
           <h3 className="text-xl font-bold text-black">{project.project_name}</h3>
-          <p className="text-black mb-2">{project.project_introduction}</p>
+          <p className="text-black mb-1">{project.project_introduction}</p>
           <a
             href={project.project_github_url}
             className="text-blue-600 underline"
@@ -73,7 +73,7 @@ export default async function Home() {
 
         {/* Contact Section */}
         <h2 className="text-2xl font-semibold mb-3 text-black">📩 Contact</h2>
-        <div className="border rounded-lg p-4 shadow-sm">
+        <div className="border rounded-lg p-3 shadow-sm">
           <p className="text-black">
             이메일:{" "}
             <a
