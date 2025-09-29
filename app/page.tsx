@@ -37,9 +37,11 @@ export default async function Home() {
     <main className="font-sans min-h-screen p-10 bg-gray-100">
       <div className="max-w-2xl mx-auto bg-white shadow rounded-xl p-8">
         {/* Header */}
-        <h1 className="text-3xl font-bold mb-6">안녕 {resume.name} 입니다 👋</h1>
+        <h1 className="text-3xl font-bold mb-6 text-black">
+          안녕 {resume.name} 입니다 👋
+        </h1>
 
-        <p className="mb-4">
+        <p className="mb-10 text-black">
           GitHub:{" "}
           <a
             href={resume.github}
@@ -52,17 +54,17 @@ export default async function Home() {
         </p>
 
         {/* Portfolio Section */}
-        <h2 className="text-2xl font-semibold mb-3">💼 Portfolio</h2>
+        <h2 className="text-2xl font-semibold mb-3 text-black">💼 Portfolio</h2>
         <div className="border rounded-lg p-4 shadow-sm">
-          <h3 className="text-xl font-bold">{project.project_name}</h3>
-          <p className="text-gray-700 mb-2">{project.project_introduction}</p>
+          <h3 className="text-xl font-bold text-black">{project.project_name}</h3>
+          <p className="text-black mb-2">{project.project_introduction}</p>
           <a
             href={project.project_github_url}
             className="text-blue-600 underline"
             target="_blank"
             rel="noreferrer"
           >
-             GitHub Repository
+            GitHub Repository
           </a>
         </div>
       </div>
