@@ -43,17 +43,17 @@ export default async function Home() {
 
     
         {/* GitHub Section */}
-        <h2 className="text-2xl font-semibold mt-10 mb-3 text-black">🔗 GitHub</h2>
-        <div className="border rounded-lg p-3 shadow-sm mb-10">
-          <a
-            href={resume.github}
-            className="text-blue-600 underline"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {resume.github}
-          </a>
-        </div>
+          <h2 className="text-2xl font-semibold mt-10 mb-3 text-black">🔗 GitHub</h2>
+              <div className="border rounded-lg p-3 shadow-sm mb-10">
+                <a
+                  href={resume.github}
+                  className="text-blue-600 underline break-words"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {resume.github}
+                </a>
+              </div>
 
 
         {/* Portfolio Section */}
@@ -87,11 +87,18 @@ export default async function Home() {
           </p>
         </div>
 
+          {/* Footer Logo */}
+      <img
+        src="/logo.jpg"
+        alt="Logo"
+        className="absolute bottom-4 right-4 w-12 h-12 opacity-80"
+      />
 
-        {/* Temporary Message */}
-        <p className="text-gray-500 text-center mt-10"> 김주미 퇴사 D-1 두근두근 주미야 그동안 고생했어 축하해 🥳</p>
 
       </div>
     </main>
+
+
+
   );
 }
