@@ -55,7 +55,7 @@ export default async function Home() {
 
         {/* Portfolio Section */}
         <h2 className="text-2xl font-semibold mb-3 text-black">💼 Portfolio</h2>
-        <div className="border rounded-lg p-4 shadow-sm">
+        <div className="border rounded-lg p-4 shadow-sm mb-10">
           <h3 className="text-xl font-bold text-black">{project.project_name}</h3>
           <p className="text-black mb-2">{project.project_introduction}</p>
           <a
@@ -67,6 +67,22 @@ export default async function Home() {
             GitHub Repository
           </a>
         </div>
+
+        {/* Contact Section */}
+        <h2 className="text-2xl font-semibold mb-3 text-black">📩 Contact</h2>
+        <p className="text-black mb-10">
+          이메일:{" "}
+          <a
+            href="mailto:vpdtn0604@gmail.com"
+            className="text-blue-600 underline"
+          >
+            vpdtn0604@gmail.com
+          </a>
+        </p>
+
+        {/* Temporary Message */}
+        <p className="text-gray-500 text-center mt-10">정은아 안녕 👋
+        </p>
       </div>
     </main>
   );
