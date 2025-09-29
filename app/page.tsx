@@ -70,19 +70,25 @@ export default async function Home() {
 
         {/* Contact Section */}
         <h2 className="text-2xl font-semibold mb-3 text-black">📩 Contact</h2>
-        <p className="text-black mb-10">
-          이메일:{" "}
-          <a
-            href="mailto:vpdtn0604@gmail.com"
-            className="text-blue-600 underline"
-          >
-            vpdtn0604@gmail.com
-          </a>
-        </p>
+        <div className="border rounded-lg p-4 shadow-sm">
+          <p className="text-black">
+            이메일:{" "}
+            <a
+              href="mailto:vpdtn0604@gmail.com"
+              className="text-blue-600 underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              vpdtn0604@gmail.com
+            </a>
+          </p>
+        </div>
+
 
         {/* Temporary Message */}
-        <p className="text-gray-500 text-center mt-10">정은아 안녕 👋
-        </p>
+        <p className="text-gray-500 text-center mt-10">정은아 안녕 오늘은 너에게 럭키데이야👋
+             배고프다... 행운이 너에게 오늘 간다이 오늘 수업 파이팅! 강산 ❣️ 정은 행복하세요     </p>
+
       </div>
     </main>
   );
