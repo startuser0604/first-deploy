@@ -41,20 +41,18 @@ export default async function Home() {
           안녕 {resume.name} 입니다 👋
         </h1>
 
-    
         {/* GitHub Section */}
-          <h2 className="text-2xl font-semibold mt-10 mb-3 text-black">🔗 GitHub</h2>
-              <div className="border rounded-lg p-3 shadow-sm mb-10">
-                <a
-                  href={resume.github}
-                  className="text-blue-600 underline break-words"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {resume.github}
-                </a>
-              </div>
-
+        <h2 className="text-2xl font-semibold mt-10 mb-3 text-black">🔗 GitHub</h2>
+        <div className="border rounded-lg p-3 shadow-sm mb-10">
+          <a
+            href={resume.github}
+            className="text-blue-600 underline break-words"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {resume.github}
+          </a>
+        </div>
 
         {/* Portfolio Section */}
         <h2 className="text-2xl font-semibold mb-3 text-black">💼 Portfolio</h2>
@@ -86,19 +84,12 @@ export default async function Home() {
             </a>
           </p>
         </div>
+      </div>
 
-          {/* Footer Logo */}
-      <img
-        src="/logo.jpg"
-        alt="Logo"
-        className="absolute bottom-4 right-4 w-12 h-12 opacity-80"
-      />
-
-
+      {/* Footer Logo */}
+      <div className="fixed bottom-4 right-4">
+        <img src="/logo.jpg" alt="Logo" className="w-12 h-12 md:w-14 md:h-14" />
       </div>
     </main>
-
-
-
   );
 }
